@@ -87,9 +87,11 @@ export function initPageReglas() {
           state.changeStatePlayer().then(() => {
             state.listenRoom();
             state.addGames();
-            state.getGames()?.then(() => {
-              Router.go("/esperaplayers");
-            });
+            setTimeout(() => {
+              state.getGames()?.then(() => {
+                Router.go("/esperaplayers");
+              });
+            }, 1500);
           });
         });
       }
