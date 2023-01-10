@@ -129,6 +129,7 @@ export function initPageWelcome() {
         botonIngresarAsala?.addEventListener("click", (e) => {
           console.log("boton ingresar a la sala");
           Router.go("/ingcodigo");
+          state.reiniciarState();
         });
       }
 
