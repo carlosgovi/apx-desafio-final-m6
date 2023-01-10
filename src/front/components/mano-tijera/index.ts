@@ -9,7 +9,7 @@ export function initTijeraComp() {
       }
       render() {
         const img: any = document.createElement("img");
-        const imagenSrc = require("/src/front/img/tijera.png");
+        const imagenSrc = require("/src/front/img/tijera2.png");
         /* img.setAttribute("src", "/src/img/tijera.png"); */
 
         img.src = imagenSrc;

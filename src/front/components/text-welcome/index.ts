@@ -20,12 +20,14 @@ export function initTextWelcomComp() {
        aling-items:center
        }
        .title{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         width:308px ;
            display:flex;
            justify-content:center;
            aling-items:center;
            text-align: center;
-            color: #009048;
+           color: #009048;
+           color: rgba(29, 109, 79, 0.578);
             margin-top:30px;
             margin-bottom:30px;
             font-weight: 700;
@@ -35,6 +37,7 @@ export function initTextWelcomComp() {
           .reglas{
             
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(87, 87, 87);
             width:308px ;
             display:flex;
             justify-content:center;
@@ -42,7 +45,7 @@ export function initTextWelcomComp() {
             text-align: center;
             margin-top:50px;
             margin-bottom:30px;
-            color: #000000;
+            
             font-weight: 600;
             font-size: 230%;
           }

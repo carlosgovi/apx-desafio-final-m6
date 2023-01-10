@@ -4,5 +4,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("./img/fondo.png");
+  background-image: url("./img/fondo2.jpg");
+  background-size: cover;
 }
