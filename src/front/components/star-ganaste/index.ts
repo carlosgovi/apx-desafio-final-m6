@@ -9,8 +9,7 @@ export function initStarGanasteComp() {
       }
       render() {
         const img: any = document.createElement("img");
-        const imagenSrc = require(__dirname +
-          "../../img/resultado-ganaste.svg");
+        const imagenSrc = require("/src/front/img/resultado-ganaste.png");
 
         img.src = imagenSrc;
         this.shadow.appendChild(img);

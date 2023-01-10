@@ -9,8 +9,7 @@ export function initStarPerdisteComp() {
       }
       render() {
         const img: any = document.createElement("img");
-        const imagenSrc = require(__dirname +
-          "../../img/resultado-perdiste.svg");
+        const imagenSrc = require("/src/front/img/resultado-perdiste.png");
 
         img.src = imagenSrc;
         this.shadow.appendChild(img);
