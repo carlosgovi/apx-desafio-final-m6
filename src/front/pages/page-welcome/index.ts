@@ -57,6 +57,7 @@
 
 //   return div;
 // }
+import { state } from "../../state";
 import { Router } from "@vaadin/router";
 export function initPageWelcome() {
   class pagewelcome extends HTMLElement {
@@ -121,6 +122,7 @@ export function initPageWelcome() {
         const botonNuevoJuego = div.querySelector(".nuevojuego");
         const botonIngresarAsala = div.querySelector(".ingasala");
         botonNuevoJuego?.addEventListener("click", (e) => {
+          state.reiniciarState();
           console.log("boton nuevo juego");
           Router.go("/ingnombre");
         });
